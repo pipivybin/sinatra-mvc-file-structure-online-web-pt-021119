@@ -14,9 +14,5 @@ class Dog
   def self.all
     @@all
   end
-
-  get '/' do
-    erb :index
-  end
-
+  
 end
