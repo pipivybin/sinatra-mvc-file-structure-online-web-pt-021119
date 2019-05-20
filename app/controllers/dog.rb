@@ -1,6 +1,6 @@
 class Dog < ApplicationController
 
-  def initialization(has)
+  def initialization(hash)
 
   end
 
