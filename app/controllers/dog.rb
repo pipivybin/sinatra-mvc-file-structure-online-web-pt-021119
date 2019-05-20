@@ -1,0 +1,1 @@
+class Dog < Sinatra::Base
