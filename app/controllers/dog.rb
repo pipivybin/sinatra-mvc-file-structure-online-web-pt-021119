@@ -11,6 +11,10 @@ class Dog < ApplicationController
     @@all << self
   end
 
+  def self.all
+
+  end
+
   get '/' do
     erb :index
   end
