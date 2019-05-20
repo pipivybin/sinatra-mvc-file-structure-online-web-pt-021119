@@ -2,7 +2,7 @@ class Dog < ApplicationController
 
   def initialization(hash)
     hash.each do
-      |key, value| send("#{key}=", value)
+      |key, value| self.send("#{key}=", value)
     end
   end
 
