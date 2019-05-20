@@ -1,8 +1,9 @@
 class Dog < ApplicationController
 
   def initialization(hash)
-    params[:name] = hash[:name]
-    params[:name] = hash[:name]
+    hash.each do
+      |key, value|
+    end
   end
 
 end
