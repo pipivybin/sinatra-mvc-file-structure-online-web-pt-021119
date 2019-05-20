@@ -1,1 +1,3 @@
-class Dog < Sinatra::Base
+class Dog < ApplicationController
+
+end
