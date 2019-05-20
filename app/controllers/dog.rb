@@ -7,7 +7,7 @@ class Dog < ApplicationController
   end
 
   get '/' do
-    erb: index.erb
+    erb :index
   end
 
 end
