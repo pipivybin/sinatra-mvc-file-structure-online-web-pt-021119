@@ -1,9 +1,7 @@
 class Dog < ApplicationController
 
-  def initialization(name: name)
-    hash.each do
-      |key, value| self.send("#{key}=", value)
-    end
+  def initialization(name, breed, age)
+    @name = name
   end
 
   get '/' do
