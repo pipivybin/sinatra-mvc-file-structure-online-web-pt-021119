@@ -1,6 +1,6 @@
 class Dog < ApplicationController
 
-  attr_accessor :name, age
+  attr_accessor :name, :age
   attr_reader :breed
 
   def initialization(name, breed, age)
