@@ -12,7 +12,7 @@ class Dog < ApplicationController
   end
 
   def self.all
-
+    @@all
   end
 
   get '/' do
